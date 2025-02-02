@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # Load model
-with open("model.pkl", 'rb') as model_file:
+with open("train_model.pkl", 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Streamlit UI
